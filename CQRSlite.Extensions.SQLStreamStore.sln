@@ -10,6 +10,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{49A73330-B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSlite.Extensions.SQLStreamStore.Tests", "test\CQRSlite.Extensions.SQLStreamStore.Tests\CQRSlite.Extensions.SQLStreamStore.Tests.csproj", "{5C63CCB1-D0D8-4980-9A3A-AFCDA1EB764A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{CF40FB05-B842-46C1-9051-1265D0322A69}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{DAA5A705-E037-4F65-B21D-7B96C533B03D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,5 +62,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8FB27704-6397-4EA8-B62A-CD872E055E2A} = {EABD9CF7-E639-4084-A773-672BA468A2A0}
 		{5C63CCB1-D0D8-4980-9A3A-AFCDA1EB764A} = {49A73330-B612-4799-85B3-7EA768DB9EA4}
+		{DAA5A705-E037-4F65-B21D-7B96C533B03D} = {EABD9CF7-E639-4084-A773-672BA468A2A0}
 	EndGlobalSection
 EndGlobal

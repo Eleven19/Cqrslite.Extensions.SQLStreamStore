@@ -90,7 +90,7 @@ namespace CQRSlite.Extensions.SQLStreamStore
         {
             if (_streamStore == null)
             {
-                throw new InvalidOperationException("A stream store factory delegate must be provided.");
+                throw new InvalidOperationException("A stream store instance must be provided.");
             }
 
             if (_eventPublisher == null)

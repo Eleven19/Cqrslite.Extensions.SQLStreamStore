@@ -11,4 +11,5 @@ namespace CQRSlite.Extensions.SQLStreamStore
         {
         }
     }
+ 
 }
